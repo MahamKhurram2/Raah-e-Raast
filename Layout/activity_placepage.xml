@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".placepage">
+
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/page_place_pge_ek1"
+            android:layout_width="392dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-11dp">
+
+            <View
+                android:id="@+id/_bg__place_pge_ek2"
+                android:layout_width="360dp"
+                android:layout_height="800dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__place_pge_ek2_shape" />
+
+            <ImageView
+                android:id="@+id/images_1"
+                android:layout_width="360dp"
+                android:layout_height="225dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="images_1"
+                android:src="@drawable/images_1" />
+
+            <View
+                android:id="@+id/ellipse_1"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="43dp"
+                android:alpha="0.69999998807907"
+                android:background="@drawable/ellipse_1_shape" />
+
+            <View
+                android:id="@+id/ellipse_2"
+                android:layout_width="38dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="314dp"
+                android:layout_marginTop="43dp"
+                android:alpha="0.69999998807907"
+                android:background="@drawable/ellipse_2_shape" />
+
+            <ImageView
+                android:id="@+id/icons8_back_26_2"
+                android:layout_width="26dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="icons8_back_26_2"
+                android:src="@drawable/icons8_back_26_2" />
+
+            <ImageView
+                android:id="@+id/icons8_back_26_1"
+                android:layout_width="26dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="icons8_back_26_1"
+                android:src="@drawable/icons8_back_26_1" />
+
+            <ImageView
+                android:id="@+id/icons8_back_26_4"
+                android:layout_width="26dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="icons8_back_26_4"
+                android:src="@drawable/icons8_back_26_4" />
+
+            <ImageView
+                android:id="@+id/rectangle_2"
+                android:layout_width="377dp"
+                android:layout_height="600dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="216dp"
+                android:contentDescription="rectangle_2"
+                android:src="@drawable/rectangle_2" />
+
+            <TextView
+                android:id="@+id/the_pakistan_monument_is_a_national_monument_in_islamabad_that_is_shaped_like_a_petal__it_is_situated_in_the_western_shakarparian_hills_and_the_best_place_to_visit_in_islamabad__the_magnificent_monument_was_erected_to_reflect_pakistanis__unity_and_patriotism__it_also_honors_the_martyrs_who_laid_down_their_lives_for_the_sake_of_our_country_and_its_people__"
+                android:layout_width="329.2dp"
+                android:layout_height="189.2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="452dp"
+                android:text="@string/the_pakistan_monument_is_a_national_monument_in_islamabad_that_is_shaped_like_a_petal__it_is_situated_in_the_western_shakarparian_hills_and_the_best_place_to_visit_in_islamabad__the_magnificent_monument_was_erected_to_reflect_pakistanis__unity_and_patriotism__it_also_honors_the_martyrs_who_laid_down_their_lives_for_the_sake_of_our_country_and_its_people___string"
+                android:textColor="@color/the_pakistan_monument_is_a_national_monument_in_islamabad_that_is_shaped_like_a_petal__it_is_situated_in_the_western_shakarparian_hills_and_the_best_place_to_visit_in_islamabad__the_magnificent_monument_was_erected_to_reflect_pakistanis__unity_and_patriotism__it_also_honors_the_martyrs_who_laid_down_their_lives_for_the_sake_of_our_country_and_its_people___color"
+                android:textSize="12sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="194dp"
+                android:layout_marginTop="324dp">
+
+
+                <TextView
+                    android:id="@+id/upcoming_events"
+                    android:layout_width="127.29354095459dp"
+                    android:layout_height="26.29354095459dp"
+                    android:layout_marginLeft="53dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/upcoming_events_string"
+                    android:textColor="@color/_bg__event_ek1_color"
+                    android:textSize="12.94sp"
+                    android:textStyle="bold" />
+
+
+                <RelativeLayout
+                    android:id="@+id/group_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+
+                        <View
+                            android:id="@+id/rectangle_24"
+                            android:layout_width="45.99dp"
+                            android:layout_height="45.99dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rectangle_24_shape" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/cultural_fest"
+                        android:layout_width="113.3dp"
+                        android:layout_height="31.3dp"
+                        android:layout_marginLeft="53dp"
+                        android:layout_marginTop="32dp"
+                        android:text="@string/cultural_fest_string"
+                        android:textColor="@color/_bg__event_ek1_color"
+                        android:textSize="13sp" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/component_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp">
+
+                        <View
+                            android:id="@+id/_bg__component_1_ek1"
+                            android:layout_width="30.99dp"
+                            android:layout_height="30.99dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/_bg__component_1_ek1_shape" />
+
+                        <ImageView
+                            android:id="@+id/icons8_back_26_5"
+                            android:layout_width="30.991086959839dp"
+                            android:layout_height="30.991086959839dp"
+                            android:layout_marginStart="0.24dp"
+                            android:layout_marginTop="0dp"
+                            android:contentDescription="icons8_back_26_5"
+                            android:src="@drawable/icons8_back_26_5" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="324dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/group_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="5dp">
+
+
+                    <TextView
+                        android:id="@+id/rating"
+                        android:layout_width="58.29354095459dp"
+                        android:layout_height="21.29354095459dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/rating_string"
+                        android:textColor="@color/_bg__event_ek1_color"
+                        android:textSize="12.94sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/_3_4"
+                        android:layout_width="58.3dp"
+                        android:layout_height="22.3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="18dp"
+                        android:text="@string/_3_4_string"
+                        android:textColor="@color/_bg__event_ek1_color"
+                        android:textSize="13sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_17_ek2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_12_ek2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+
+                        <View
+                            android:id="@+id/rectangle_24_ek1"
+                            android:layout_width="45.99dp"
+                            android:layout_height="45.99dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rectangle_24_ek1_shape" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/component_1_ek2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="6dp">
+
+
+                        <ImageView
+                            android:id="@+id/rating_ek1"
+                            android:layout_width="21.79dp"
+                            android:layout_height="20.7dp"
+                            android:layout_marginStart="4.13dp"
+                            android:layout_marginTop="5.17dp"
+                            android:contentDescription="rating_ek1"
+                            android:src="@drawable/rating_ek1" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="157dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="419dp"
+                android:text="@string/description_string"
+                android:textColor="@color/_bg__event_ek1_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shakarparian__islamabad"
+                android:layout_width="223.6dp"
+                android:layout_height="28.6dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="272dp"
+                android:text="@string/shakarparian__islamabad_string"
+                android:textColor="@color/_bg__event_ek1_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/pin_icon"
+                android:layout_width="17dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="274dp"
+                android:contentDescription="pin_icon"
+                android:src="@drawable/pin_icon" />
+
+            <TextView
+                android:id="@+id/pakistan_monument"
+                android:layout_width="319.2dp"
+                android:layout_height="37.2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="238dp"
+                android:text="@string/pakistan_monument_string"
+                android:textColor="@color/_bg__event_ek1_color"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="392dp"
+
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/navigationbox" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" >
+
+        <ImageView
+            android:id="@+id/homebutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/homeicon" />
+        <ImageView
+            android:id="@+id/mapbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mapicon"
+            android:layout_marginTop="2dp"/>
+
+        <ImageView
+            android:id="@+id/searchbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/searchicon" />
+
+        <ImageView
+            android:id="@+id/chatbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/micon" />
+        <ImageView
+            android:id="@+id/profilbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/profileicon" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

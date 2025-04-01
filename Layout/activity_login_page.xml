@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:id="@+id/welcomeText_arham"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Welcome,Traveler!"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/heading"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/rectangle_rounded_bottom_corners"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/loginForm_arham"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/rectangle_all_rounded_corners"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/welcomeText_arham"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/stylish"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/email_arham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:textSize="20sp"
+            android:fontFamily="@font/simple"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rectangle_all_rounded_corners"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/stylish"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/password_arham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:textSize="20sp"
+            android:fontFamily="@font/simple"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rectangle_all_rounded_corners"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/errorHandler_arham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/simple"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton_arham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle_all_rounded_corners"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/stylish"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginForm_arham"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/stylish"
+        android:text="Don't have an account? Sign up"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:onClick="SignUpPageFunction"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

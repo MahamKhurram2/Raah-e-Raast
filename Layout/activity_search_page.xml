@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchPage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/backarrow_arham"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/searchBox_arham"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/heading"
+        android:background="@drawable/rectangle_rounded_bottom_corners"
+        android:backgroundTint="#AA8F18AA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/email_arham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="100dp"
+            android:hint="Search"
+            android:textSize="20sp"
+            android:fontFamily="@font/simple"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/rectangle_all_rounded_corners"
+            android:backgroundTint="@color/black"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_marginTop="80dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="-65dp"
+            android:src="@drawable/searchicon_arham"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBox_arham">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/searching_arham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search History"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/heading"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:src="@drawable/line"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Badshai Mosque"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/stylish"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:src="@drawable/close_arham"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:backgroundTint="#AA8F18AA"
+            android:background="#AA8F18AA"
+            android:src="@drawable/line"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shangrila Resort"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/stylish"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:src="@drawable/close_arham"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:backgroundTint="#AA8F18AA"
+            android:background="#AA8F18AA"
+            android:src="@drawable/line"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
