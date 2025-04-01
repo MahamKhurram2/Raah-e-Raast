@@ -40,6 +40,5 @@ Raah-e-Raast is an all-encompassing travel and local exploration application des
 
 ## Screenshots
 
-![ss1](https://github.com/mahamkhurram/Raah-e-Raast/assets/102586527/61d09db0-c3b2-4fc1-be6b-45ce02a237c4)
-![ss2](https://github.com/mahamkhurram/Raah-e-Raast/assets/102586527/33bb0188-61bc-4b62-bbc3-9d30432bfb5a)
-
+![Screenshot 1](assets/screenshots/1.PNG)
+![Screenshot 2](assets/screenshots/2.PNG)
